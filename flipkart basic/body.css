@@ -1,0 +1,135 @@
+.main {
+    height:150vw;
+    width: 100%;
+    background-color: #F0F5FF;
+    top: 40px;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.discount {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+}
+
+.slider {
+    height: 240px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    margin-left: 10px;
+
+}
+
+#randomimg {
+    width:100%;
+    
+}
+
+button {
+    height: 90px;
+    width: 30px;
+    background-color: white;
+
+}
+
+.leftslider {
+    position: absolute;
+    top: 225px;
+    left: 30px;
+}
+
+.rightslider {
+    position: absolute;
+    top: 225px;
+    right: 30px;
+}
+border:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.product{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+.tdos{
+    padding: 10px;
+    font-weight: bold;
+}
+.productlist{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.center{
+    text-align: center;
+}
+.poster{
+    background-color: #F0F5FF;
+    width: 100%;
+    height: 40vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pos{
+    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/520/280/image/e3fc2437e2891de0.jpg?q=20");
+    background-size: cover;
+    height: 40vh;
+    width: 32%;
+}
+.pos1{
+    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/520/280/image/e3fc2437e2891de0.jpg?q=20");
+   
+}
+.pos2{
+    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/520/280/image/66cff0db3cbf776a.jpg?q=20");
+   
+}
+.pos3{
+    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/520/280/image/cdfb91fe95ecd037.jpg?q=20");
+   
+}
+.bigimg{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+.bigposter{
+    padding-left:10px;
+    padding-right: 10px;
+   
+}
+.bigdetails{
+    margin: auto;
+    font-weight: 900;
+}
+.bigp{
+    object-fit: cover;
+    height: 80vh;
+    width: 100%;
+    
+}
+#first{
+    font-weight: lighter;
+    margin: 20px;
+}

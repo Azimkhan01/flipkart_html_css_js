@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./header.css" >
+    <link rel="stylesheet" href="./body.css" >
+    <link rel="stylesheet" href="./footer.css" >
+    <title>Flipkart</title>
+</head>
+<body>
+    <header>
+       <div id="main_container">
+         <div class="logo border" onclick="loc()" target="_blank"></div>
+         <div class="search">
+            <div class="search_btn border">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" onclick="search()"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+            </div>
+            <div class="searchbox">
+                <input type="text" placeholder="  Search,Product,Brand And More">
+            </div>
+         </div>
+        <a href="https://www.flipkart.com/account/login?ret=/"> <div class="login">
+         <div class="login_logo"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" alt="login"></div>
+         <div class="loginp"><p>Login</p></div>
+         <div class="down_arrow"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K" alt="downarrow"></div>
+         </div></a>
+         <div class="login">
+            <div class="login_logo"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" alt="login"></div>
+            <div class="loginp"><p>Cart</p></div>
+            </div>
+            <div class="login">
+                <div class="login_logo"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="login"></div>
+                <div class="loginp"><p>Become a Seller</p></div>
+            </div>
+            <div class="threedot">
+               <a href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps"> <img class= "imagethreedot"src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg" alt="threedot"></a>
+            </div>
+       </div>
+    </header>
+    <div class="main">
+ 
+        <div class="discount">
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/12e1ef5720394d33.png?q=100" alt="discountmain">
+                <div class="card">Top offer</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/39a5455dfa3a6e09.png?q=100" alt="Mobile & Tablet">
+                <div class="card">Mobile & Tablet</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/07eaf6881d416ef9.png?q=100" alt="TVS & Application">
+                <div class="card">TVS & Application</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/a72369170563cf50.png?q=100" alt="Electronic">
+                <div class="card">Electronic</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/120fe56747723091.png?q=100" alt="Fashion">
+                <div class="card">Fashion</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/d5f37d2f45157db3.png?q=100" alt="Beauty">
+                <div class="card">Beauty</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/367e2bc66f3e0871.png?q=100" alt="Home & Kitchen">
+                <div class="card">Home & Kitchen</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/f88c5f353db775a8.png?q=100" alt="Furniture">
+                <div class="card">Furniture</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/05b1ef015a3e69aa.jpg?q=100" alt="Travel">
+                <div class="card">Travel</div>
+            </div>
+            <div class="p1">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/eaaf0fc36fb4097e.png?q=100" alt="Grocery">
+                <div class="card">Grocery</div>
+            </div>
+
+            <div class="slider">
+               <div class="leftslider border"> <button onclick="plusplus()"><</button></div>
+                <div class ="images"><img  id="randomimg" name="canvas" alt="randomphoto" src="./image/first.png" onload="dis()"></div>
+               <div class="rightslider border"><button onclick="minusminus()">></button></div>
+            </div>
+
+            <div class="product">
+                <div class="tdos">Top Deals on smarphone</div>
+                <div class="productlist">
+                <div class="firstproduct"><div><img src="./image/iphone.jpeg" alt="./image/iphone.jpeg"></div><div class="center">iphone 12<br><b>from $8k</b></div></div>
+                <div class="firstproduct"><div><img src="./image/iphone.jpeg" alt="./image/iphone.jpeg"></div><div class="center">iphone 12<br><b>from $8k</b></div></div>
+                <div class="firstproduct"><div><img src="./image/iphone.jpeg" alt="./image/iphone.jpeg"></div><div class="center">iphone 12<br><b>from $8k</b></div></div>
+                <div class="firstproduct"><div><img src="./image/iphone.jpeg" alt="./image/iphone.jpeg"></div><div class="center">iphone 12<br><b>from $8k</b></div></div>
+                <div class="firstproduct"><div><img src="./image/iphone.jpeg" alt="./image/iphone.jpeg"></div><div class="center">iphone 12<br><b>from $8k</b></div></div>
+                <div class="firstproduct"><div><img src="./image/iphone.jpeg" alt="./image/iphone.jpeg"></div><div class="center">iphone 12<br><b>from $8k</b></div></div>
+               </div>
+            </div>
+            <div class="poster">
+            
+            <div class="pos pos1"></div>
+            <div class="pos pos2"></div>
+            <div class="pos pos3"></div>
+
+            </div>
+
+            <div class="product">
+                <div class="tdos">Top Deals on smarphone</div>
+                <div class="productlist">
+                <div class="firstproduct"><div><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" alt="./image/iphone.jpeg"></div><div class="center">Glove<br><b>from $50</b></div></div>
+                <div class="firstproduct"><div><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" alt="./image/iphone.jpeg"></div><div class="center">Shoes<br><b>from $100</b></div></div>
+                <div class="firstproduct"><div><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" alt="./image/iphone.jpeg"></div><div class="center">Toys<br><b>from $10</b></div></div>
+                <div class="firstproduct"><div><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" alt="./image/iphone.jpeg"></div><div class="center">Clothes<br><b>from $30</b></div></div>
+                <div class="firstproduct"><div><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" alt="./image/iphone.jpeg"></div><div class="center">Electronics<br><b>from $500</b></div></div>
+                <div class="firstproduct"><div><img src="https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90" alt="./image/iphone.jpeg"></div><div class="center">Women wears<br><b>from $20</b></div></div>
+               </div>
+
+           
+                <div class="bigimg"> 
+                    <div class="bigdetails center">THIS IS DETAIL ABOUT PICTURE</div>
+                    <div class="bigposter"><img class="bigp" src="https://english.cdn.zeenews.com/sites/default/files/2020/06/10/865909-flipkartflight.jpg" alt="bgipicofflight"></div>
+                </div>
+                <div class="poster">
+            
+                    <div class="pos pos1"></div>
+                    <div class="pos pos2"></div>
+                    <div class="pos pos3"></div>
+        
+                    </div>
+                    <div class="mainone">
+
+                        <div id="first"><h>Flipkart: The One-stop Shopping Destination</h><br><p>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down. </p><br>What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question. <br>A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more! <br>Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply. <br>Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit ullam, omnis nobis quam dolorum eum inventore illum quisquam officia perferendis at sequi, impedit ab. Accusamus nemo maiores totam corrupti!
+                        Reiciendis quas provident excepturi expedita? Officiis veniam nemo, id corporis dolor aperiam laudantium maiores beatae animi, tempore, minima dignissimos. In vero, vel libero debitis ab quidem nostrum unde magnam dolores?
+                        Porro natus voluptates, ut ad nemo nostrum asperiores, sequi quas numquam explicabo minus ipsam cupiditate vero. Nulla dolor aperiam perspiciatis repudiandae, aliquam assumenda cupiditate error placeat quasi enim praesentium incidunt.
+                        Odio eos, voluptatibus, perspiciatis, animi corporis quasi necessitatibus neque alias odit est exercitationem consequuntur quia molestias enim culpa eum commodi ipsa aspernatur! Enim minus odit minima, animi consectetur delectus voluptates!
+                        Beatae similique voluptatibus ad maxime est iste eum repellendus enim quidem? Reiciendis delectus rerum, suscipit consectetur nostrum eos assumenda numquam perferendis porro fugit aliquid, accusantium earum, minus harum ducimus quae?
+                        Perferendis beatae quas natus sit provident, atque ad totam ut eos praesentium libero numquam molestiae assumenda aperiam in deserunt! Beatae a natus illum facere, delectus quisquam voluptatem tempora porro aliquid.
+                        Incidunt reprehenderit pariatur vero dolor, adipisci vitae praesentium quam vel beatae? Velit optio molestiae doloremque illo. Sunt iste non corporis recusandae repudiandae reprehenderit soluta sint esse rerum, quas, illo repellendus.
+                        Nemo asperiores obcaecati autem quisquam totam similique facere recusandae temporibus, inventore consequatur quod molestias quo provident. Ab asperiores velit tempore labore praesentium, perferendis non a, amet mollitia fuga quos nemo.
+                        Eaque impedit corporis excepturi expedita voluptatum obcaecati aperiam at dignissimos aliquam. Debitis, ducimus. Praesentium quas qui dolore totam voluptatibus quibusdam molestias culpa voluptate at maiores saepe, officiis, repellat sint tenetur!
+                        Modi, obcaecati earum fugiat ipsam perspiciatis praesentium aliquid commodi ullam sunt tenetur neque in? Optio ullam debitis fugit dolorum cupiditate possimus, autem in, quam fugiat hic tempore non voluptas nihil?</div>
+                        
+                 </div>
+                 
+                    <div class="lastthing">
+                    
+                        <div class="help hov">
+                            <ul>what
+                                <li class="hov2">About us </li>
+                                <li class="hov3">Career</li>
+                                <li class="hov4">Information</li>
+                                <li class="hov5">Help</li>
+                                <li class="hov6">Technology</li>
+                            </ul>
+                        </div>
+                        <div class="help hov">
+                            <ul>what
+                                <li class="hov2">About us </li>
+                                <li class="hov3">Career</li>
+                                <li class="hov4">Information</li>
+                                <li class="hov5">Help</li>
+                                <li class="hov6">Technology</li>
+                            </ul>
+                        </div>
+                        <div class="help hov">
+                            <ul>what
+                                <li class="hov2">About us </li>
+                                <li class="hov3">Career</li>
+                                <li class="hov4">Information</li>
+                                <li class="hov5">Help</li>
+                                <li class="hov6">Technology</li>
+                            </ul>
+                        </div>
+                        <div class="help hov">
+                            <ul>what
+                                <li class="hov2">About us </li>
+                                <li class="hov3">Career</li>
+                                <li class="hov4">Information</li>
+                                <li class="hov5">Help</li>
+                                <li class="hov6">Technology</li>
+                            </ul3>
+                        </div>
+                        <div class="help hov">
+                            <ul>what
+                                <li class="hov2">About us </li>
+                                <li class="hov3">Career</li>
+                                <li class="hov4">Information</li>
+                                <li class="hov5">Help</li>
+                                <li class="hov6">Technology</li>
+                            </ul3>
+                        </div>
+                        <div class="mail">
+                            <ul class="hov"> MAIL US
+                                <li class="hov2">E/3 502<br>kalpatarru<br>lokudyan<br>kalyan west<br>421301</li>
+                            </ul3>
+                            <br>
+                            <br>
+                            <ul>Social:
+                            <li class="hov2"><a class="hov" href="" style="text-decoration: none;">Instagram</a></li>
+                            <li class="hov3"><a class="hov" href="" style="text-decoration: none;">Youtube</a</li>
+                            <li class="hov4"><a class="hov" href="" style="text-decoration: none;">LinekdIn</a</li>
+                            </ul3>
+                        </div>
+                        <div class="mail">
+                            <ul class="hov5">Registered Office Address
+                                <li class="hov">E3,502<br>kalpataru<br>Lokudyan<br>Kalyan west<br> 421301<br>Mobile:+917678084267<br>GMAIL: azimkarimrahim@gmail.com </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="another">
+                    <div class ="pad col"><span><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg" alt="log0"></span> Become a Seller</div>
+                    <div class ="pad col"><span><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg" alt="log0"></span> Gift Card</div>
+                    <div class ="pad col"><span><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg" alt="log0"></span> Adverrtise </div> 
+                    <div class ="pad col"><span>@2004</span>Flipkart.com<span></span></div>
+                    <div class="cards"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg" alt="card"></div>
+                    </div>
+                 
+            
+            <div >
+
+            </div>
+
+        </div>
+       
+
+    </div>
+    
+        
+    
+    <script src="./header.js" ></script>
+    
+</body>
+</html>
